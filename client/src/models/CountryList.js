@@ -15,7 +15,6 @@ var countries = JSON.parse(jsonString);
 CountryList.prototype.populateSelector(countries);
 
 
-
   });
 };
 
