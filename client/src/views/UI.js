@@ -1,9 +1,9 @@
-var BucketList = require('../models/bucketList');
+var CountryList = require('../models/CountryList');
 
 var UI = function(){};
 
-new BucketList();
-
+var countryList = new CountryList();
+console.log(countryList);
 
 
 
