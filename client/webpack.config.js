@@ -4,7 +4,13 @@ config = {
     filename: "bundle.js",
     path: __dirname + "/build"
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  externals: {
+    fs: '{}',
+    tls: '{}',
+    net: '{}',
+    module: '{}'
+  }
 }
 
 module.exports = config;
