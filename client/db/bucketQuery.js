@@ -1,7 +1,7 @@
 var MongoClient = require('mongodb').MongoClient;
 
 var BucketQuery = function(){
-  this.url = 'mongodb://localhost:27017/bucket_list';
+  this.url = 'mongodb://localhost:27017/bucketlist';
 };
 
 BucketQuery.prototype = {

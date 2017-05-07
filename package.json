@@ -15,6 +15,6 @@
     "mongodb": "^2.2.25"
   },
   "devDependencies": {
-    "webpack": "^2.3.3"
+    "webpack": "^1.12.15"
   }
 }

@@ -5,12 +5,12 @@ config = {
     path: __dirname + "/build"
   },
   devtool: 'source-map',
-  externals: {
-    fs: '{}',
-    tls: '{}',
-    net: '{}',
-    module: '{}'
-  }
+  // externals: {
+  //   fs: '{}',
+  //   tls: '{}',
+  //   net: '{}',
+  //   module: '{}'
+  // }
 }
 
 module.exports = config;

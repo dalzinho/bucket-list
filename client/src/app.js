@@ -12,14 +12,16 @@ var app = function(){
       // console.log(document.querySelector('#country-picker').value);
       var apiURL = "https://restcountries.eu/rest/v2/name/" + document.querySelector('#country-picker').value;
       // console.log(apiURL);
+
       apiRequest(apiURL, function(){
         var response = JSON.parse(this.responseText);
-        bucketQuery.addCountry(response, function(data){
-          console.log('hi mum');
-        });
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open("POST", localhost, false);
+        xmlHttp.send(response);
       });
-    }
+    };
   }
+  
 
 
 
